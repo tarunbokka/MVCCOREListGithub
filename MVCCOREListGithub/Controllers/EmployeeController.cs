@@ -21,6 +21,11 @@ namespace MVCCOREListGithub.Controllers
                 Id = 2,
                 Name = "Satish",
                 Email = "satish109@gmail.com"
+            }, new Employee()
+            {
+                Id = 3,
+                Name = "Sathwik",
+                Email = "sathwik@gmail.com"
             }
             };
             return View(employees);
